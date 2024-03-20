@@ -38,3 +38,74 @@ body{
 
 
 </style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Change</title>
+    <style>
+        /* Default light theme */
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        /* Dark theme */
+        body.dark-theme {
+            background-color: #333;
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Theme Change Example</h1>
+    
+    <!-- Theme change button -->
+    <button id="themeButton">Change Theme</button>
+
+    <script>
+        const body = document.body;
+        const themeButton = document.getElementById("themeButton");
+        let isDarkMode = false;
+
+        themeButton.addEventListener("click", function() {
+            // Toggle dark mode
+            isDarkMode = !isDarkMode;
+            
+            // Toggle dark mode class on body
+            if (isDarkMode) {
+                body.classList.add("dark-theme");
+            } else {
+                body.classList.remove("dark-theme");
+            }
+        });
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exit Button</title>
+</head>
+<body>
+    <h1>Welcome to my webpage!</h1>
+    
+    <!-- Exit button -->
+    <button id="exitButton">Exit</button>
+
+    <script>
+        const exitButton = document.getElementById("exitButton");
+
+        exitButton.addEventListener("click", function() {
+            // Close the current window/tab
+            window.close();
+        });
+    </script>
+</body>
+</html>
+
