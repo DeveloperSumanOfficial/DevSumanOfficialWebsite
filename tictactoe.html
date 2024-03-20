@@ -1,0 +1,56 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <title>DeveloperSuman\TicTacToe</title>
+
+   <link rel="shortcut icon" type="x-icon" href="DevSuman.jpg"
+    
+
+
+</head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            
+            
+            
+            <font size="4"><a href="webgames.html">Back</font></a><br><font size="8" ><font color="brownd">Tic </font><font color="magenta">Tac </font><font color="orange">Toe</font></h1>
+        <div id="board" class="board">
+            <div class="row">
+                <div id="cell00" class="cell" onclick="placeMark(0, 0)"></div>
+                <div id="cell01" class="cell" onclick="placeMark(0, 1)"></div>
+                <div id="cell02" class="cell" onclick="placeMark(0, 2)"></div>
+            </div>
+            <div class="row">
+                <div id="cell10" class="cell" onclick="placeMark(1, 0)"></div>
+                <div id="cell11" class="cell" onclick="placeMark(1, 1)"></div>
+                <div id="cell12" class="cell" onclick="placeMark(1, 2)"></div>
+            </div>
+            <div class="row">
+                <div id="cell20" class="cell" onclick="placeMark(2, 0)"></div>
+                <div id="cell21" class="cell" onclick="placeMark(2, 1)"></div>
+                <div id="cell22" class="cell" onclick="placeMark(2, 2)"></div>
+            </div>
+        </div>
+        <div id="message" class="message"></div>
+        <button id="newGameButton" class="new-game-button" onclick="newGame()">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
