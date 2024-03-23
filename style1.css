@@ -1,158 +1,160 @@
 .calculator {
-    width: 400px;
-    margin: 80px auto;
-    border: 5px solid #ccc;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #f7f7f7;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  #display {
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 15px;
-    font-size: 24px;
-    border: none;
-    border-radius: 5px;
-    background-color: #cdbc79;
-  }
-  
-  .keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-  }
-  
-  button {
-    padding: 15px;
-    font-size: 18px;
-    background-color: #d3d3d3;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #bfbfbf;
-  }
-  
-  button:active {
-    background-color: #a6a6a6;
-  }
-  
-  button:nth-child(1) {
-    grid-column: span 2;
-    background-color: #ff8c00;
-    
-  }
-  
-  button:nth-child(2) {
-    grid-column: span 2;
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(3) {
-    grid-column: span 2;
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(4) {
-    background-color: #ff8c00;
-  }
+  width: 333px;
+  height: 554px;
+  margin: 40px auto;
+  border: 5px solid #ccc;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-  button:nth-child(5) {
-    background-color: #ff8c00;
-  }
+#display {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #cdbc79;
+}
 
-  button:nth-child(6) {
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(7) {
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(8) {
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(9) {
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(10) {
-    background-color: #ff8c00;
-  }
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
 
-  button:nth-child(11) {
-    background-color: #ff8c00;
-  }
+button {
+  padding: 15px;
+  font-size: 18px;
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  button:nth-child(12) {
-    background-color: #ff8c00;
-  }
-  
-  button:nth-child(13) {
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(14) {
-    background-color: #fe9400;
-  }
-  
-  button:nth-child(15) {
-    background-color: #fe9400;
-  }
-  
-  button:nth-child(16) {
-    background-color: #ff8c00;
-  }
+button:hover {
+  background-color: #bfbfbf;
+}
 
-  button:nth-child(17) {
-    background-color: #4caf50;
-  }
+button:active {
+  background-color: #a6a6a6;
+}
 
-  button:nth-child(18) {
-    background-color: #ff8c00;
-  }
+button:nth-child(1) {
+  grid-column: span 2;
+  background-color: #ff8c00;
+  
+}
 
-  button:nth-child(19) {
-    background-color: #ff8c00;
-  }
-  
-  button:nth-child(20) {
-    background-color: #fe9400;
-  }
-  
-  button:nth-child(21) {
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(22) {
-    background-color: #ff8c00;
-  }
-  
-  button:nth-child(23) {
-    background-color: #ff8c00;
-  }
+button:nth-child(2) {
+  grid-column: span 2;
+  background-color: #4caf50;
+}
 
-  button:nth-child(24) {
-    background-color: #ff8c00;
-  }
+button:nth-child(3) {
+  grid-column: span 2;
+  background-color: #4caf50;
+}
 
-  button:nth-child(25) {
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(26) {
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(27) {
-    background-color: #4caf50;
-  }
-  
-  button:nth-child(28) {
-    background-color: #ff8c00;
-  }
+button:nth-child(4) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(5) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(6) {
+  background-color: #4caf50;
+}
+
+button:nth-child(7) {
+  background-color: #4caf50;
+}
+
+button:nth-child(8) {
+  background-color: #4caf50;
+}
+
+button:nth-child(9) {
+  background-color: #4caf50;
+}
+
+button:nth-child(10) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(11) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(12) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(13) {
+  background-color: #4caf50;
+}
+
+button:nth-child(14) {
+  background-color: #fe9400;
+}
+
+button:nth-child(15) {
+  background-color: #fe9400;
+}
+
+button:nth-child(16) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(17) {
+  background-color: #4caf50;
+}
+
+button:nth-child(18) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(19) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(20) {
+  background-color: #fe9400;
+}
+
+button:nth-child(21) {
+  background-color: #4caf50;
+}
+
+button:nth-child(22) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(23) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(24) {
+  background-color: #ff8c00;
+}
+
+button:nth-child(25) {
+  background-color: #4caf50;
+}
+
+button:nth-child(26) {
+  grid-column: span 4;
+  background-color: #c5d234;
+}
+
+button:nth-child(27) {
+  background-color: #4caf50;
+}
+
+button:nth-child(28) {
+  background-color: #ff8c00;
+}
