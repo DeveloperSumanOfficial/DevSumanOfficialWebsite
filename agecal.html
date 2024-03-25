@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeveloperSuman\WebApps\AgeCalculator</title>
+
+    <link rel="shortcut icon" type="x-icon" href="DevSuman.jpg">
+     
+    <link rel="stylesheet" href="agecal.css">
+</head>
+<body>
+    <div class="calculator">
+
+        <p align="center">
+
+            <a href="webapps.html">Back</a>
+        </p>
+
+        <h1>Age Calculator</h1>
+        <div class="input-group">
+            <label for="birthdate">Enter Birthdate:</label>
+            <input type="date" id="birthdate" onchange="calculateAge()">
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="agecal.js"></script>
+</body>
+</html>

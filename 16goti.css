@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.puzzle-container {
+    
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 100px);
+    gap: 2px;
+}
+
+.puzzle-piece {
+    width: 100px;
+    height: 100px;
+    background-color: #ffa500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
